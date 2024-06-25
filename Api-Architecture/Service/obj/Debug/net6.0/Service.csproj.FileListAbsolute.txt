@@ -17,3 +17,4 @@ C:\Users\user\Desktop\Api-Architecture\Api-Architecture\Service\obj\Debug\net6.0
 C:\Users\user\Desktop\Api-Architecture\Api-Architecture\Service\obj\Debug\net6.0\Service.pdb
 C:\Users\user\Desktop\Api-Architecture\Api-Architecture\Service\obj\Debug\net6.0\Service.genruntimeconfig.cache
 C:\Users\user\Desktop\Api-Architecture\Api-Architecture\Service\obj\Debug\net6.0\ref\Service.dll
+C:\Users\user\Desktop\Api-Architecture\Api-Architecture\Service\obj\Debug\net6.0\Service.sourcelink.json

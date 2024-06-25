@@ -37,6 +37,17 @@ namespace Service.Services
             await _countryRepo.DeleteAsync(data);
         }
 
+        public async Task EditAsync(int id, CountryEditDto model)
+        {
+            if (model == null) throw new ArgumentNullException();
+            var data = await _countryRepo.GetById(id);
+
+            if (data is null) throw new ArgumentNullException();
+
+            var editData = _mapper.Map(model, data);
+            await _countryRepo.EditAsync(editData);
+        }
+
         public async Task<IEnumerable<CountryDto>> GetAll()
         {
            return _mapper.Map<IEnumerable<CountryDto>>(await _countryRepo.GetAllAsync());

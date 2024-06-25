@@ -61,6 +61,23 @@ namespace Api_Architecture.Controllers.Admin
             }
         }
 
+        [HttpPut("{id}")]
+        public async Task<IActionResult> Edit([FromRoute] int id, [FromBody] CountryEditDto request)
+        {
+
+            try
+            {
+                await _countryservice.EditAsync(id, request);
+                return Ok();
+            }
+            catch (Exception ex)
+            {
+
+                return StatusCode(StatusCodes.Status500InternalServerError, new { message = ex.Message });
+            }
+           
+        }
+
         [HttpDelete]
         public async Task<IActionResult> Delete([FromQuery] int? id)
         {

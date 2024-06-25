@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Service.DTOs.Admin.Countries
 {
-    internal class CountryEditDto
+    public class CountryEditDto
     {
         public string Name { get; set; }
     }

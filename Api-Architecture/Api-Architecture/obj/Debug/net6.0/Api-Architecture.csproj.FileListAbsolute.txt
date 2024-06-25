@@ -76,3 +76,4 @@ C:\Users\user\Desktop\Api-Architecture\Api-Architecture\Api-Architecture\obj\Deb
 C:\Users\user\Desktop\Api-Architecture\Api-Architecture\Api-Architecture\obj\Debug\net6.0\Api-Architecture.pdb
 C:\Users\user\Desktop\Api-Architecture\Api-Architecture\Api-Architecture\obj\Debug\net6.0\Api-Architecture.genruntimeconfig.cache
 C:\Users\user\Desktop\Api-Architecture\Api-Architecture\Api-Architecture\obj\Debug\net6.0\ref\Api-Architecture.dll
+C:\Users\user\Desktop\Api-Architecture\Api-Architecture\Api-Architecture\obj\Debug\net6.0\Api-Architecture.sourcelink.json

@@ -15,6 +15,6 @@ namespace Service.Services.Interfaces
         Task<CountryDto> GetByIdAsync(int id);
         Task DeleteAsync(int id);
 
-        Task EditAsync(int id,CountryEditDto model);
+        Task EditAsync(int id, CountryEditDto model);
     }
 }
